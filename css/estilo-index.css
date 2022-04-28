@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    background-color: rgb(10, 0, 61);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo img {
+    margin: 1%;
+    height: 60px;
+}
+
+.logo h1 {
+    margin: 2%;
+}
+
+/* estilo del menu*/
+
+.nav {
+    background-color: #c2c2c2;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.barra-navegacion {
+    width: 100%;
+}
+
+.barra-navegacion ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.barra-navegacion ul a {
+    display: table-cell;
+    text-decoration: none;
+    width: 12.5vw;
+    color: #000000;
+    transition: color 300ms;
+}
+
+.barra-navegacion ul a li {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3vw;
+}
+
+.barra-navegacion ul a:hover {
+    background-color: #1c058d;
+    border-right: solid 8px rgb(255, 255, 255);
+    color: #fff;
+
+    /* empieza  la seccion de las noticias */
+}
+
+.noticias {
+    display: flex;
+
+}
+
+.listar-noticias {
+    width: 80vw;
+    border: solid 1px #000000;
+}
+
+.listar-noticias img {
+    width: 100%;
+    border: solid 5px #000000
+}
+
+.listar-noticias button {
+    width: 95%;
+    height: 40px;
+    background-color: #0a003d;
+    color: #fff;
+    margin-left: 2%;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.listar-noticias button:hover {
+    background-color: #c3c3c3;
+    color: #000;
+
+}
+
+.barra-lateral {
+    width: 20vw;
+    border: solid 1px #000000;
+    padding: 1%;
+}
+
+.barra-lateral .deportes {
+    width: 18vw;
+    border: solid 1px #000000;
+    height: 240px;
+
+}
+
+.barra-lateral .tecnologia {
+    width: 18vw;
+    border: solid 1px #ff0000;
+    height: 240px;
+
+}
+
+ /* empieza  la seccion de enlaces e informacion*/
+
+ .footer {
+        background-color: #c2c2c2;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        padding: 2%;
+ }
+
+ .f-enlaces{
+     width: 70%;
+     display: flex;
+     align-items: center;
+     padding: 1%;
+ }
+
+ .f-enlaces a {
+    padding: 2%;
+    margin-right: 4%;
+    font-size:1.3vw;
+    text-decoration: none;
+    color : #000000;
+}
+ .f-informacion{
+    width: 30%;
+}
+.f-informacion a{
+    width: 30%;
+    font-size:1.3vw;
+    text-decoration: none;
+}
+.cierre{
+    width: 100%;
+    background-color: #0a003d;
+    color: #fff;
+    text-align: center;
+    padding: 1%;
+}
