@@ -85,6 +85,14 @@
     width: 100%;
     border: solid 5px #000000
 }
+.l-primero h3{
+  color:#1c058d;
+  padding: 1%;
+}
+.l-primero p{
+    margin: 1%;
+    border: solid 1px #bebdbd;
+  }
 
 .listar-noticias button {
     width: 95%;
