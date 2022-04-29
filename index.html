@@ -60,8 +60,8 @@
             </article>
             <aside class="barra-lateral">
                 <div class="deportes">
-                <h2>Deportes</h2>
-                <div id="b-deportes"></div>
+                    <h2>Deportes</h2>
+                    <div id="b-deportes"></div>
                 </div>
                 <div class="tecnologia">
                     <h2>Tecnologia</h2>
@@ -88,6 +88,13 @@
         <div class="cierre">2022 Colegio Gimnasio UFPS</div>
     </div>
 </body>
-   <script src="js/informacion.js"></script>
+<script src="js/informacion.js"></script>
+<script src="js/informacionLateral.js"></script>
+<script type="text/javascript">
+    (() => {
+        let pathname = window.location.pathname;
+        localStorage.setItem("pathname", pathname);
+    })();
+</script>
 
 </html>
