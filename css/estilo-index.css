@@ -78,7 +78,6 @@
 
 .listar-noticias {
     width: 80vw;
-    border: solid 1px #000000;
 }
 
 .listar-noticias img {
@@ -89,18 +88,24 @@
   color:#1c058d;
   padding: 1%;
 }
+.l-primero h3 a{
+text-decoration: none; 
+  }
 .l-primero p{
-    margin: 1%;
+    margin-left: 1%;
+    margin-bottom: 1% ;
+    margin-top: 1% ;
     border: solid 1px #bebdbd;
   }
 
 .listar-noticias button {
-    width: 95%;
+    width: 100%;
     height: 40px;
     background-color: #0a003d;
     color: #fff;
-    margin-left: 2%;
     border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
     cursor: pointer;
     text-transform: uppercase;
 }
@@ -112,24 +117,52 @@
 
 .barra-lateral {
     width: 20vw;
-    border: solid 1px #000000;
     padding: 1%;
 }
 
 .barra-lateral .deportes {
     width: 18vw;
-    border: solid 1px #000000;
-    height: 240px;
+    border: solid 1px #c0c0c0;
+    margin-bottom: 8%;
 
+}
+.deportes h2 {
+   margin: 5%;
+   font-size: 1.5vw;
+}
+
+#b-deportes p{
+    margin: 6%;
+    padding-bottom: 6%;
+    border-bottom: solid 4px #0a003d;
+    
+}
+#b-deportes p a {
+    text-decoration: none;
+    font-size: 1.3vw;
+    color: #000000;
 }
 
 .barra-lateral .tecnologia {
     width: 18vw;
-    border: solid 1px #ff0000;
-    height: 240px;
+    border: solid 1px #c0c0c0;
 
 }
-
+.tecnologia h2 {
+    margin: 5%; 
+    font-size: 1.5vw; 
+}
+#b-tecnologia p{
+    margin: 6%;
+    padding-bottom: 6%;
+    border-bottom: solid 4px #0a003d;
+    
+}
+#b-tecnologia p a {
+    text-decoration: none;
+    font-size: 1.3vw;
+    color: #000000;
+}
  /* empieza  la seccion de enlaces e informacion*/
 
  .footer {
