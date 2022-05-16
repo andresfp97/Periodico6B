@@ -33,5 +33,6 @@ document.getElementById("btn-mostrar").onclick = function () {
                     }   <a id="mostrarnoti" href="#"> ver mas </a> </p>`;
             }
             document.getElementById("l-noticias").innerHTML = body;
+        
         });
 };
